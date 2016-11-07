@@ -1,0 +1,3 @@
+---
+- name: creates lein executable
+  template: src=templates/lein.j2 dest=/usr/local/bin/lein mode=0755
